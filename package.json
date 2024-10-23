@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "async": "^3.2.6",
+    "debug": "^4.3.7",
+    "eslint": "^9.13.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  }
+}
