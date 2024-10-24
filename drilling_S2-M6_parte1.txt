@@ -1,0 +1,50 @@
+
+• Crea una nueva carpeta, e inicializa un nuevo repositorio de git.
+
+	mkdir Drilling_S2-M6
+
+	cd Drilling_S2-M6
+
+	git init
+
+• Crea un archivo .gitignore, que omita la carpeta node modules al momento de subir cambios.
+
+	R//Se creó mediante la interfaz del IDE
+
+• Busca en la web los paquetes más utilizados de npm, e instala los cinco primeros de la lista
+
+	npm i lodash
+
+	npm i async
+
+	npm i moment
+
+	npm i debug
+
+	npm i eslint
+
+• Haz un chequeo de los cambios en tu proyecto (git status) posterior a la instalación, agrega los cambios a git, y luego realiza un commit de estos cambios.
+
+	git status
+
+	git add .
+
+	commit -m "primer commit"
+
+• Elige dos paquetes de tu proyecto, y realiza una desinstalación.
+
+	npm uninstall moment
+
+	npm uninstall async
+
+• Vuelve a realizar un chequeo de los cambios luego de la desinstalación, añade los cambios, y guárdalos en el repositorio local de git.
+
+	git status
+
+	git add .
+
+	git commit -m "Elimina dos paquetes"
+
+• ¿Puedes ver cuál es el archivo que cambia cada vez que realizas una instalación o desinstalación de paquetes?
+
+	R// Cambia el contenido de package.json al agregar o eliminar módulos

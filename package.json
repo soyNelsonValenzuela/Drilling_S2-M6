@@ -3,5 +3,19 @@
     "debug": "^4.3.7",
     "eslint": "^9.13.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "name": "drilling_s2-m6",
+  "version": "1.0.0",
+  "description": "Drillin de sesion 2, modulo 6: Instroducción al gestos de paquetes npm",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "node"
+  ],
+  "author": "Nelson Valenzuela",
+  "license": "ISC"
 }
